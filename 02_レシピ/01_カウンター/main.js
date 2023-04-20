@@ -9,4 +9,13 @@ plusButton.onclick = function () {
   count += 1
   // count を表示
   display.textContent = count
+
+  minusButton.onclick = function () {
+    count = count - 1
+    display.textContent = count
+  }
+  baiButton.onclick = function () {
+    count = count * 2
+    display.textContent = count
+  }
 }
