@@ -11,7 +11,7 @@ const hikakin = {
     console.log("ブンブンハロー YouTube")
   },
 }
-
+hikakin.sayHello()
 // 練習問題
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
 
